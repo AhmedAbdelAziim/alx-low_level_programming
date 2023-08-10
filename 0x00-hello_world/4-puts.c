@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - printing this value
- * return : will be 0
+ * main - entry point
+ * Description: 'printing using put'
+ * Return: always 0 (Success)
  */
 int main(void)
 {	char mystr[] = "\"Programming is like building a multilingual puzzle";
