@@ -6,11 +6,12 @@
  */
 
 int main(void)
-{       char chr = 'z';
+{       int n = 122;
 
-	for (chr = 'z'; chr <= 'a'; chr++)
+	while (n >= 97)
 	{
-		putchar (chr);
+		putchar (n);
+		n--;
 	}
 	putchar ('\n');
 	return (0);
