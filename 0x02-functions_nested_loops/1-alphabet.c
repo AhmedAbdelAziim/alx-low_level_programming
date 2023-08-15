@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet - entry point
  * Description: 'printing alpha'
  * Return: always 0 (success)
  */
 void print_alphabet(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
