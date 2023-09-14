@@ -42,7 +42,7 @@ int op_div(int a, int b)
 	return (a / b);
 }
 /**
- * op_mod - division 
+ * op_mod - division
  * @a: 1st input
  * @b: 2nd input
  * Return: 0
